@@ -38,7 +38,6 @@ if user_select_option == "Password Generator Meter":
         return ''.join(random.choice(characters) for _ in range(length))  
     
     if st.button("**Generate Password**"):  
-        st.slider()
         password = generator_password(length, use_digits,use_special_char)
         st.write(f"**Generated Password:** `{password}`") 
         if not use_special_char and not use_digits:
