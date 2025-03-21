@@ -64,7 +64,6 @@ if user_select_option == "Password Strength Checker":
     password2 =st.text_input("Enter Your Password")
 
     st.button("**Check Password**")
-        # st.write("#### Password Suggestion ")
     score = 0
 
     if password2 :
